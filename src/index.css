@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: bitwise;
+  src: url(./assets/fonts/bitwise.ttf);
+}
+
+.dragbox {
+  position: absolute;
+  cursor: move;
+  color: #404040;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: auto;
+  user-select: none;
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 250px;
+  max-height: 500px;
+  border: solid 2px #404040;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.dot {
+  height: 16px;
+  width: 16px;
+  margin-right: 2px;
+  background-color: #404040;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.shadowbox {
+  border: solid 2px #404040;
+  box-shadow: #404040 10px 10px;
+}
+
+.blogbox {
+  max-width: 200px;
+}
+
+.server {
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 90px;
+  height: 34rem;
+  width: 34rem;
+}
+
+.intro-position {
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  right: 150px;
+  height: 34rem;
+  width: 34rem;
+}
+
+.intro-font {
+  color: #404040;
+  font-size: 60px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+
+.customFont {
+  font-family: bitwise, sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.button-read-blogs {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+}
