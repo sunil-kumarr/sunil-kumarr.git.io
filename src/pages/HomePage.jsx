@@ -5,7 +5,6 @@ import ShadowCard from "../components/ShadowCard";
 import SeverSVG from "../assets/svg/server-diagram.svg";
 import Timeline from "../components/Timeline";
 import Book1 from "../assets/img/book1.jpeg";
-import Book2 from "../assets/img/book2.jpeg";
 import Tech1 from "../assets/img/tech2.jpg";
 import Tech2 from "../assets/img/hacka.jpg";
 import { DiJava, DiDocker } from "react-icons/di";
