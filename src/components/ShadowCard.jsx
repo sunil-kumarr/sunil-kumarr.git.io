@@ -1,7 +1,22 @@
 import React from "react";
-const ShadowCard = ({ content }) => (
-  <div className="shadowbox h-2/6 w-2/6 md:flex">
-    <h1 className="p-4 text-lg font-bold">{content}</h1>
+import { IconContext } from "react-icons";
+
+const ShadowCard = ({ icons, title, description, date }) => (
+  <div className="shadowbox row-span-2 flex flex-col  align-center">
+    <div className="bg-white h-50 grid grid-cols-4 grid-rows-2 grid-flow-row p-10 gap-y-8 gap-x-4">
+      <IconContext.Provider value={{ size: "50px" }}>
+        {icons.map((Icon, index) => (
+          <div key={index}>{Icon}</div>
+        ))}
+      </IconContext.Provider>
+    </div>
+    <hr />
+    <div className="p-4 ">
+      <h1 className="text-2xl font-bold customFont">{title}</h1>{" "}
+      <p className="text-gray-400">{date}</p>
+      <br />
+      <p>{description}</p>
+    </div>
   </div>
 );
 

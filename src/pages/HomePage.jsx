@@ -1,9 +1,25 @@
 import React from "react";
 import BrowserCard from "../components/BrowserCard";
 import ShadowButton from "../components/ShadowButton";
-import ShadowCard from "../components/ShadowButton";
+import ShadowCard from "../components/ShadowCard";
 import SeverSVG from "../assets/svg/server-diagram.svg";
 import Timeline from "../components/Timeline";
+import Skills from "../components/Skills";
+import { DiJava, DiDocker } from "react-icons/di";
+import {
+  SiKubernetes,
+  SiJavascript,
+  SiSpringboot,
+  SiReact,
+  SiApachekafka,
+  SiGradle,
+  SiPython,
+  SiFastapi,
+  SiPostgresql,
+  SiMongodb,
+  SiAndroidstudio,
+} from "react-icons/si";
+import { TbApi } from "react-icons/tb";
 
 const HomePage = () => (
   <div>
@@ -69,19 +85,97 @@ const HomePage = () => (
         <Timeline />
       </div>
     </section>
-    <section class="col-span-10">
+    {/* <section class="col-span-10">
+      <div
+        className="justify-center align-center flex p-10"
+        style={{ backgroundColor: "#E3F4F4" }}
+      >
+        <img src={SkillImg} height={200} width={400} />
+        <Skills />
+      </div>
+    </section> */}
+    <section>
       <div
         className="justify-center align-center flex flex-col p-10"
         style={{ backgroundColor: "#FBFFDC" }}
       >
         <h1 className="col-start-2 m-20 customFont"> Projects </h1>
-        <div className="grid grid-cols-3 grid-rows-3 grid-flow-row gap-16">
-          <ShadowCard />
-          <ShadowCard />
-          <ShadowCard />
-          <ShadowCard />
-          <ShadowCard />
-          <ShadowCard />
+        <div className="grid grid-cols-3 grid-rows-2 grid-flow-row gap-12 auto-rows-max">
+          <ShadowCard
+            icons={[
+              <DiJava />,
+              <SiSpringboot />,
+              <SiApachekafka />,
+              <SiKubernetes />,
+              <DiDocker />,
+              <SiGradle />,
+              <SiMongodb />,
+              <SiPostgresql />,
+            ]}
+            date="Nov, 2022 - May, 2023"
+            title="Workflow Automation"
+            description={
+              <p>
+                Automation of entire platform using a UI. Where company features
+                are available as action blocks of graph to the user.
+                <ol className="desc_style">
+                  <li>
+                    <strong>Tech:</strong> Java, SpringBoot, Apache Kafka,
+                    Netflix Conductor, K8s, Docker, Gradle
+                  </li>
+                </ol>
+              </p>
+            }
+          />
+          <ShadowCard
+            icons={[
+              <SiPython />,
+              <SiFastapi />,
+              <TbApi />,
+              <SiJavascript />,
+              <SiReact />,
+              <SiPostgresql />,
+              <DiDocker />,
+              <SiKubernetes />,
+            ]}
+            date="April, 2021 - Oct, 2021"
+            title="Telecalling Service"
+            description={
+              <p>
+                Wrapper Service for vendor API integrations. Integrated more
+                than 50+ API from telecalling vendor SAAS paltform and
+                contributed to the frontend of the same.
+                <ol className="desc_style">
+                  <li>
+                    <strong>Tech:</strong> Javascript, ReactJs, React Native,
+                    Android, Java
+                  </li>
+                </ol>
+              </p>
+            }
+          />
+          <ShadowCard
+            icons={[
+              <SiJavascript />,
+              <SiReact />,
+              <DiJava />,
+              <SiAndroidstudio />,
+            ]}
+            date="May, 2021 - Sept, 2021"
+            title="CG Collect (Feet On Street) "
+            description={
+              <p>
+                On Field Collection application for agent to track and recovery
+                collections amount from defaulters.
+                <ol className="desc_style">
+                  <li>
+                    <strong>Tech:</strong> Javascript, ReactJs, React Native,
+                    Android, Java
+                  </li>
+                </ol>
+              </p>
+            }
+          />
         </div>
       </div>
     </section>

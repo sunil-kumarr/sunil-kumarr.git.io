@@ -85,3 +85,8 @@ h1 {
   bottom: 50px;
   right: 100px;
 }
+
+.desc_style {
+  margin-left: 10px;
+  list-style-type: circle;
+}

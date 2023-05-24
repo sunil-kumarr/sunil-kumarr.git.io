@@ -11,7 +11,10 @@ const Navbar = () => {
           </span>
         </a>
         <div class="flex md:order-2">
-          <ShadowButton content="Download Resume"></ShadowButton>
+          <ShadowButton
+            content="Download Resume"
+            link="https://drive.google.com/file/d/1jTG-5hVqsY0AB6Gx7EYre2gwrkoRNZun/view?pli=1"
+          ></ShadowButton>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
