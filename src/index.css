@@ -7,23 +7,6 @@
   src: url(./assets/fonts/bitwise.ttf);
 }
 
-.dragbox {
-  position: absolute;
-  cursor: move;
-  color: #404040;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  margin: auto;
-  user-select: none;
-  min-width: 400px;
-  max-width: 400px;
-  min-height: 250px;
-  max-height: 500px;
-  border: solid 2px #404040;
-  border-radius: 20px;
-  background-color: white;
-}
-
 .dot {
   height: 16px;
   width: 16px;
@@ -62,7 +45,6 @@
 
 .intro-font {
   color: #404040;
-  font-size: 60px;
   line-height: normal;
   letter-spacing: normal;
   font-weight: bold;
