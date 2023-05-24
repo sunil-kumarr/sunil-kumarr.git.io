@@ -156,7 +156,7 @@ const HomePage = () => (
           Other Stuff
         </h1>
         <div className="grid grid-cols-1 grid-rows-3 grid-flow-col gap-y-8 gap-x-4 lg:grid-cols-3 lg:grid-rows-1 lg:grid-flow-row">
-          <div className="shadowbox flex flex-col align-center w-fit">
+          <div className="shadowbox flex flex-col align-center w-fit h-fit">
             <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat border border-black border-b-2">
               <img
                 src={Book1}
@@ -177,7 +177,7 @@ const HomePage = () => (
               </p>
             </div>
           </div>
-          <div className="shadowbox flex flex-col align-center w-fit">
+          <div className="shadowbox flex flex-col align-center w-fit h-fit">
             <div className="flex flex-row align-center border border-black">
               <div class="relative max-w-xs lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
                 <img
@@ -200,12 +200,12 @@ const HomePage = () => (
               </p>
             </div>
           </div>
-          <div className="shadowbox flex flex-col align-center w-fit">
-            <div className="flex flex-row align-center border border-black">
-              <div class="relative max-w-xs lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
+          <div className="shadowbox flex flex-col align-center w-fit h-fit">
+            <div className="flex flex-row align-center border border-black ">
+              <div class="relative max-w-xs  lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
                 <img
                   src={Tech2}
-                  class="min-h-fit max-h-min max-w-sm lg:max-w-lg transition duration-300 ease-in-out hover:scale-150"
+                  class=" max-w-sm lg:max-w-lg transition duration-300 ease-in-out hover:scale-150"
                   alt="hackathon"
                 />
               </div>
