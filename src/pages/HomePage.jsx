@@ -1,6 +1,5 @@
 import React from "react";
 import BrowserCard from "../components/BrowserCard";
-import ShadowButton from "../components/ShadowButton";
 import ShadowCard from "../components/ShadowCard";
 import SeverSVG from "../assets/svg/server-diagram.svg";
 import Timeline from "../components/Timeline";
@@ -26,7 +25,7 @@ import { TbApi } from "react-icons/tb";
 const HomePage = () => (
   <main>
     <section class="grid grid-cols-1 grid-rows-2 grid-flow-col md:grid-cols-6 md:grid-rows-1 md:grid-flow-row">
-      <div class="col-span-2 h-96 lg:h-screen   bg-[#f6f4f6] flex flex-col justify-center items-center p-12 md:p-10 lg:p-8">
+      <div class=" col-span-2 h-96 lg:h-screen bg-[#f6f4f6] flex flex-col justify-center items-center p-12 md:p-10 lg:p-8">
         <img src={SeverSVG} />
       </div>
 
@@ -35,7 +34,7 @@ const HomePage = () => (
           <p class="text-lg md:text-xl lg:text-2xl ">
             <span>{">_"}</span> Hi, I'm sunil kumar
           </p>
-          <h1 class="text-lg md:text-4xl lg:text-6xl">
+          <h1 class="text-3xl md:text-4xl lg:text-6xl">
             I Like to create, build and connect things on server side 🔨. I also
             write and talk about tech stuff.
           </h1>
