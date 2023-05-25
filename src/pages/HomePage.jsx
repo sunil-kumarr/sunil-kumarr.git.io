@@ -20,6 +20,7 @@ import {
   SiMongodb,
   SiAndroidstudio,
 } from "react-icons/si";
+import { MdKeyboardArrowRight } from "react-icons/md";
 import { TbApi } from "react-icons/tb";
 
 const HomePage = () => (
@@ -31,12 +32,17 @@ const HomePage = () => (
 
       <div class="col-span-6 md:col-span-4 h-96 lg:h-screen bg-[#6fdcbf] flex flex-col justify-center items-center">
         <div class="customFont p-10 md:p-12 lg:p-24">
-          <p class="text-lg md:text-xl lg:text-2xl ">
-            <span>{">_"}</span> Hi, I'm sunil kumar
-          </p>
+          <div class="pb-4 pr-4 text-lg md:text-xl lg:text-2xl flex w-fit">
+            <span class="pr-4 inline-block text-justify">{"> Hi, I am a"}</span>
+            <span class="typewriter text-white font-bold text-xl md:text-2xl text-center">
+              Backend Developer
+            </span>
+          </div>
+
           <h1 class="text-3xl md:text-4xl lg:text-6xl">
-            I Like to create, build and connect things on server side 🔨. I also
+            I Like to create, build and connect things on server side. I also
             write and talk about tech stuff.
+            <span>🔨</span>
           </h1>
         </div>
       </div>
