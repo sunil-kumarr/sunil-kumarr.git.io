@@ -3,6 +3,7 @@ import ShadowCard from "../../../components/ShadowCard";
 import { DiJava, DiDocker } from "react-icons/di";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { TbApi } from "react-icons/tb";
+import { HiOutlineCubeTransparent } from "react-icons/hi";
 import {
   SiKubernetes,
   SiJavascript,
@@ -29,8 +30,8 @@ const ProjectSection = () => {
         <h1 className="m-20 customFont"> Projects </h1>
         <div
           className={`grid grid-cols-1 grid-rows-${
-            showMoreProjects ? 6 : 3
-          } grid-flow-col gap-8 lg:grid-cols-3 lg:grid-rows-1 lg:grid-flow-row`}
+            showMoreProjects ? 7 : 3
+          } grid-flow-row gap-8 lg:grid-cols-3 lg:grid-rows-1`}
         >
           <ShadowCard
             icons={[
@@ -70,6 +71,7 @@ const ProjectSection = () => {
               <SiPostgresql />,
               <DiDocker />,
               <SiKubernetes />,
+              <HiOutlineCubeTransparent />,
             ]}
             date="2022"
             title="Webhook Data Ingestion Pipeline"
@@ -126,6 +128,7 @@ const ProjectSection = () => {
                   <SiPostgresql />,
                   <DiDocker />,
                   <SiKubernetes />,
+                  <HiOutlineCubeTransparent />,
                 ]}
                 date="2022"
                 title="Communication Microservice"
@@ -173,7 +176,7 @@ const ProjectSection = () => {
                   <SiJavascript />,
                   <SiReact />,
                   <SiPostgresql />,
-                  <DiDocker />,
+                  <HiOutlineCubeTransparent />,
                   <SiKubernetes />,
                 ]}
                 date="2021"
@@ -187,6 +190,34 @@ const ProjectSection = () => {
                       <li>
                         <strong>Tech:</strong> Javascript, ReactJs, React
                         Native, Android, Java
+                      </li>
+                    </ol>
+                  </p>
+                }
+              />
+              <ShadowCard
+                icons={[
+                  <SiApachekafka />,
+                  <SiPython />,
+                  <SiFastapi />,
+                  <TbApi />,
+                  <SiPostgresql />,
+                  <DiDocker />,
+                  <SiKubernetes />,
+                  <HiOutlineCubeTransparent />,
+                ]}
+                date="2022"
+                title="Export Microservice"
+                description={
+                  <p>
+                    A API orchestrator microservice for extract huge amount of
+                    data from different microservices in chunks and then combine
+                    them into one file to be uploaded to AWS3 and sent in email
+                    to clients.
+                    <ol className="desc_style">
+                      <li>
+                        <strong>Tech:</strong> Python, FastAPI, Postgresql,
+                        Microservices, Kafka
                       </li>
                     </ol>
                   </p>
