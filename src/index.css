@@ -21,6 +21,15 @@
   box-shadow: #404040 10px 10px;
 }
 
+button:hover {
+  animation: shadowpress 900ms ease-in-out forwards;
+}
+
+.card:hover {
+  animation: scaler 700ms ease-in forwards;
+  animation-delay: 200ms;
+}
+
 .blogbox {
   max-width: 200px;
 }
@@ -101,5 +110,26 @@ h1 {
   }
   50% {
     border-color: white;
+  }
+}
+
+@keyframes shadowpress {
+  from {
+    transform: translate(0px, 0px);
+    box-shadow: #404040 10px 10px;
+  }
+  to {
+    transform: translate(10px, 10px);
+    box-shadow: #fbffdc 0px 0px;
+  }
+}
+
+@keyframes scaler {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.03);
   }
 }
