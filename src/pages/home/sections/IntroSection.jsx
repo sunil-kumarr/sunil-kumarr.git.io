@@ -19,7 +19,7 @@ const IntroSection = () => (
         <h1 class="text-3xl md:text-4xl lg:text-6xl">
           I Like to create, build and connect things on server side. I also
           write and talk about tech stuff.
-          <span>🔨</span>
+          <span id="hammer">🔨</span>
         </h1>
       </div>
     </div>

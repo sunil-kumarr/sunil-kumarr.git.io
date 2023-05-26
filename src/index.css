@@ -92,6 +92,10 @@ h1 {
     blink-caret 0.7s step-end infinite;
 }
 
+/* #hammer:hover {
+  animation: bouncer 1s ease-in-out 100ms 10 forwards;
+} */
+
 /* The typing effect */
 @keyframes typing {
   from {
@@ -133,3 +137,15 @@ h1 {
     transform: scale(1.03);
   }
 }
+
+/* @keyframes bouncer {
+  from {
+    transform: rotate(0deg);
+    transform: translate(0px, 0px);
+  }
+
+  to {
+    transform: rotate(90deg);
+    transform: translate(10px, 10px);
+  }
+} */
