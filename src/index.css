@@ -25,6 +25,10 @@ button:hover {
   animation: shadowpress 900ms ease-in-out forwards;
 }
 
+.buttonpress:hover {
+  animation: shadowpress 900ms ease-in-out forwards;
+}
+
 .card:hover {
   animation: scaler 700ms ease-in forwards;
   animation-delay: 200ms;
@@ -92,9 +96,9 @@ h1 {
     blink-caret 0.7s step-end infinite;
 }
 
-/* #hammer:hover {
-  animation: bouncer 1s ease-in-out 100ms 10 forwards;
-} */
+.hammer:hover {
+  animation: bouncer 800ms ease-in reverse infinite;
+}
 
 /* The typing effect */
 @keyframes typing {
@@ -138,14 +142,12 @@ h1 {
   }
 }
 
-/* @keyframes bouncer {
+@keyframes bouncer {
   from {
     transform: rotate(0deg);
-    transform: translate(0px, 0px);
   }
 
   to {
-    transform: rotate(90deg);
-    transform: translate(10px, 10px);
+    transform: rotate(360deg);
   }
-} */
+}

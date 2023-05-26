@@ -1,6 +1,7 @@
 import React from "react";
 import ShadowButton from "./ShadowButton";
 import { HiMenu } from "react-icons/hi";
+import { MdDownload } from "react-icons/md";
 
 const Navbar = () => {
   return (
