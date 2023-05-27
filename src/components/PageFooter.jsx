@@ -22,7 +22,7 @@ const PageFooter = () => (
             <SiLinkedin size={30} />
           </a>
           <a
-            href="https://github.com/sunil-kumarr"
+            href="https://github.com/sunil-cred"
             target="_blank"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
