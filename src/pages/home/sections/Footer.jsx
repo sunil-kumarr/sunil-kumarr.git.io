@@ -9,8 +9,8 @@ const Footer = () => (
       <h1 className="customFont m-10 text-xl lg:m-20 lg:text-2xl">
         Other Stuff
       </h1>
-      <div className="grid grid-cols-1 grid-rows-3 grid-flow-col gap-y-8 gap-x-4 lg:grid-cols-3 lg:grid-rows-1 lg:grid-flow-row">
-        <div className="shadowbox flex flex-col align-center w-fit h-fit">
+      <div className="lg:grid lg:gap-4 lg:grid-cols-3 lg:grid-rows-1 lg:grid-flow-row">
+        <div className="shadowbox flex flex-col align-center w-fit h-fit mt-4">
           <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat border border-black border-b-2">
             <img
               src={Book1}
@@ -31,7 +31,7 @@ const Footer = () => (
             </p>
           </div>
         </div>
-        <div className="shadowbox flex flex-col align-center w-fit h-fit">
+        <div className="shadowbox flex flex-col align-center w-fit h-fit mt-4">
           <div className="flex flex-row align-center border border-black">
             <div class="relative max-w-xs lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
               <img
@@ -54,7 +54,7 @@ const Footer = () => (
             </p>
           </div>
         </div>
-        <div className="shadowbox flex flex-col align-center w-fit h-fit">
+        <div className="shadowbox flex flex-col align-center w-fit h-fit mt-4">
           <div className="flex flex-row align-center border border-black ">
             <div class="relative max-w-xs  lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
               <img

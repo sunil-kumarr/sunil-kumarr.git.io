@@ -4,6 +4,7 @@ import BlogSection from "./sections/BlogSection";
 import IntroSection from "./sections/IntroSection";
 import WorkTimeline from "./sections/WorkTimeline";
 import ProjectSection from "./sections/ProjectSection";
+import PageFooter from "../../components/PageFooter";
 
 const HomePage = () => (
   <main>
@@ -12,6 +13,7 @@ const HomePage = () => (
     <ProjectSection />
     <BlogSection />
     <Footer />
+    <PageFooter />
   </main>
 );
 
