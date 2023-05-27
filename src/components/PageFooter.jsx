@@ -1,5 +1,5 @@
 import React from "react";
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiMedium, SiTelegram } from "react-icons/si";
 
 const PageFooter = () => (
   <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
@@ -17,7 +17,7 @@ const PageFooter = () => (
           <a
             href="https://www.linkedin.com/in/kumar-sunil/"
             target="_blank"
-            class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            class="text-gray-500 hover:text-blue-700 dark:hover:text-white"
           >
             <SiLinkedin size={30} />
           </a>
@@ -27,6 +27,20 @@ const PageFooter = () => (
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <SiGithub size={30} />
+          </a>
+          <a
+            href="https://sunil-kumarr.medium.com/"
+            target="_blank"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+          >
+            <SiMedium size={30} />
+          </a>
+          <a
+            href="https://t.me/sunilkumarrdev"
+            target="_blank"
+            class="text-gray-500 hover:text-blue-400 dark:hover:text-white"
+          >
+            <SiTelegram size={30} />
           </a>
         </div>
       </div>
