@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav class="absolute w-full z-20 top-0 left-0">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://sunil-kumarr.github.io/" class="flex items-center">
-          <span class="self-center text-lg md:text-xl lg:text-3xl  customFont font-semibold whitespace-nowrap dark:text-white">
+          <span class="self-center text-lg md:text-xl lg:text-3xl  customFont font-semibold whitespace-nowrap">
             Sunil Kumar
           </span>
         </a>

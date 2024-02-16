@@ -22,8 +22,8 @@ import {
 } from "react-icons/si";
 
 const ProjectSection = () => {
-  const [showMoreProjects, setShowMoreProjects] = useState(false);
-  const [buttonText, setButtonText] = useState("Show me more cool projects");
+  const [showMoreProjects, setShowMoreProjects] = useState(true);
+  const [buttonText, setButtonText] = useState("Just show me less");
   return (
     <section>
       <div className="flex flex-col justify-center align-center p-10 bg-[#FBFFDC]">
