@@ -8,14 +8,14 @@ const IntroSection = () => {
     "Software Developer",
     "Frontend Developer",
     "Backend Developer",
-    "Super Developer",
+    "FullStack Developer",
   ];
   const [role, setRole] = useState(roles[0]);
   const [index, setIndex] = useState(0);
   let nIntervId;
   function changeRole() {
     if (!nIntervId) {
-      nIntervId = setInterval(updateRole, 5002);
+      nIntervId = setInterval(updateRole, 10000);
     }
   }
 
@@ -53,7 +53,7 @@ const IntroSection = () => {
             </span>
           </div>
 
-          <h1 class="text-2xl md:text-4xl lg:text-6xl">
+          <h1 class="text-2xl md:text-4xl lg:text-6xl leading-10">
             I Like to create, build and connect things on server side. I also
             write and talk about tech stuff.
             <GiThorHammer className="inline hammer" />

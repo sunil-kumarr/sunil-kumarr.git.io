@@ -15,21 +15,21 @@
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: "Poppins-LightItalic";
   src: url(./assets/fonts/Poppins-LightItalic.ttf) format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: "Poppins-Bold";
   src: url(./assets/fonts/Poppins-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: "Poppins-BoldItalic";
   src: url(./assets/fonts/Poppins-BoldItalic.ttf) format("truetype");
   font-weight: bold;
   font-style: italic;
@@ -99,9 +99,9 @@ h1 {
 }
 
 .customFont {
-  font-family: poppins, bitwise, sans-serif;
+  font-family: Poppins, bitwise, sans-serif;
   letter-spacing: 0.04em;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .button-read-blogs {
@@ -121,7 +121,7 @@ h1 {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 3.5s steps(50, end) infinite alternate-reverse,
+  animation: typing 4s steps(60, end) infinite alternate-reverse,
     blink-caret 0.7s step-end infinite;
 }
 
@@ -159,7 +159,7 @@ a {
     width: 0;
   }
   to {
-    width: 62%;
+    width: 68%;
   }
 }
 
