@@ -11,7 +11,7 @@ const Dots = () => (
 
 const BlogCard = ({ title, content, link, tags }) => (
   <Draggable>
-    <div className=" border border-2 border-[#404040] bg-white rounded-3xl min-w-min max-w-md bottom-200 hover:cursor-grab">
+    <div className="m-4  border-2 border-[#404040] bg-white rounded-3xl min-w-min max-w-md bottom-200 hover:cursor-grab">
       <Dots />
 
       <div className="bg-black h-0.5 rounded-r-sm" />

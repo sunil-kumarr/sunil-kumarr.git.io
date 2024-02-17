@@ -52,12 +52,6 @@ const ProjectSection = () => {
                 automating different platform actions using DAG's and User
                 Interface. Highly customizable and modular design for addition
                 of new actions in less than hour.
-                <ol className="desc_style pt-2">
-                  <li>
-                    <strong>Tech:</strong> Java, SpringBoot, Apache Kafka,
-                    Netflix Conductor, K8s, Docker, Gradle, Microservices
-                  </li>
-                </ol>
               </p>
             }
           />
@@ -81,12 +75,6 @@ const ProjectSection = () => {
                 and store webhooks in Postgresql using kafka as buffer and kafka
                 consumer for batching and chaining multiple queries to reduce
                 load on database.
-                <ol className="desc_style pt-2">
-                  <li>
-                    <strong>Tech:</strong> Kafka, Python, FastAPI, Postgresql,
-                    Microservice, Docker, Kubernetes
-                  </li>
-                </ol>
               </p>
             }
           />
@@ -108,12 +96,6 @@ const ProjectSection = () => {
                 capturing changes in data from multiple sources into kafka. This
                 pipeline now powers use cases like table auditing, cumulative
                 dashboard and reports, etc...
-                <ol className="desc_style pt-2">
-                  <li>
-                    <strong>Tech:</strong> Kafka, Kafka Connect, Debezium,
-                    Postgresql, MongoDB
-                  </li>
-                </ol>
               </p>
             }
           />
@@ -137,12 +119,6 @@ const ProjectSection = () => {
                     Redesigned and optimised entire service data flow for
                     performance improvement gains in API calls of upto 10x
                     times.
-                    <ol className="desc_style pt-2">
-                      <li>
-                        <strong>Tech:</strong> Python,FastAPI, Postgresql,
-                        Microservices
-                      </li>
-                    </ol>
                   </p>
                 }
               />
@@ -159,12 +135,6 @@ const ProjectSection = () => {
                   <p>
                     On Field Collection application for agent to track and
                     recovery collections amount from defaulters.
-                    <ol className="desc_style">
-                      <li>
-                        <strong>Tech:</strong> Javascript, ReactJs, React
-                        Native, Android, Java
-                      </li>
-                    </ol>
                   </p>
                 }
               />
@@ -186,12 +156,6 @@ const ProjectSection = () => {
                     Wrapper Service for vendor API integrations. Integrated more
                     than 50+ API from telecalling vendor SAAS paltform and
                     contributed to the frontend of the same.
-                    <ol className="desc_style">
-                      <li>
-                        <strong>Tech:</strong> Javascript, ReactJs, React
-                        Native, Android, Java
-                      </li>
-                    </ol>
                   </p>
                 }
               />
@@ -214,12 +178,6 @@ const ProjectSection = () => {
                     data from different microservices in chunks and then combine
                     them into one file to be uploaded to AWS3 and sent in email
                     to clients.
-                    <ol className="desc_style">
-                      <li>
-                        <strong>Tech:</strong> Python, FastAPI, Postgresql,
-                        Microservices, Kafka
-                      </li>
-                    </ol>
                   </p>
                 }
               />
