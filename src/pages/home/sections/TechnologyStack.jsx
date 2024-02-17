@@ -78,7 +78,7 @@ const cloudSkills = [
 
 const TechnologyStack = () => (
   <section>
-    <div className="flex justify-center items-center lg:flex-col  p-10 bg-green-100 customFont">
+    <div className="flex flex-col justify-center items-center p-10 bg-green-100 customFont">
       <div>
         <h1>Technology Stack</h1>
         <h1 className="grunge-underline"></h1>

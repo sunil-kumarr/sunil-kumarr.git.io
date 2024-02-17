@@ -27,7 +27,11 @@ const ProjectSection = () => {
   return (
     <section>
       <div className="flex flex-col justify-center align-center p-10 bg-[#FBFFDC]">
-        <h1 className="m-20 customFont"> Projects </h1>
+        <div className="m-20 customFont">
+          <h1> Projects </h1>
+          <h1 className="grunge-underline"></h1>
+        </div>
+
         <div
           className={`grid grid-cols-1 grid-rows-${
             showMoreProjects ? 7 : 3
