@@ -6,9 +6,12 @@ const PageFooter = () => (
     <div class="mx-auto max-w-screen-xl">
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-between ">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <span class="text-sm text-gray-500 sm:text-center">
           © 2023{" "}
-          <a href="https://flowbite.com" class="hover:underline">
+          <a
+            href="https://www.linkedin.com/in/kumar-sunil/"
+            class="hover:underline text-gray-500"
+          >
             Sunil Kumar
           </a>
           . All Rights Reserved.

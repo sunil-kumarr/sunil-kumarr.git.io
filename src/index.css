@@ -175,3 +175,10 @@ a {
     transform: rotate(360deg);
   }
 }
+
+.grunge-underline {
+  border: 0;
+  height: 1rem;
+  background: url("assets/img/grunge-underline.png") no-repeat;
+  background-size: contain;
+}

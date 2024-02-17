@@ -12,7 +12,12 @@ const ShadowCard = ({ icons, title, description, date }) => (
     </div>
     <hr />
     <div className="p-4 ">
-      <h1 className="text-2xl font-bold customFont">{title}</h1>{" "}
+      <a href={`/projects/${title}`}>
+        <h1 className="text-2xl font-bold customFont hover:underline">
+          {title}
+        </h1>
+      </a>
+
       <p className="text-gray-400">{date}</p>
       <br />
       <p>{description}</p>
