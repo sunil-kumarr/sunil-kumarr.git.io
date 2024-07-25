@@ -76,7 +76,7 @@ const Timeline = () => (
     <TimelineEvent
       title={"Credgenics | Software Developer"}
       icon={<img src={CregenicsIcon} />}
-      time={"Jan 2021 - April 2023"}
+      time={"April 2021 - April 2023"}
       pLink={
         "https://play.google.com/store/apps/details?id=com.credgenics.fos&hl=en_US&gl=US&pli=1"
       }
@@ -84,7 +84,7 @@ const Timeline = () => (
     <TimelineEvent
       title={"Retail Pulse Technologies | Software developer"}
       icon={<img src={RetailpluseIcon} />}
-      time={"June 2020 - December 2020"}
+      time={"June 2020 - March 2021"}
       pLink={
         "https://play.google.com/store/apps/details?id=ai.retailpulse&hl=en_US&gl=US"
       }
